@@ -1,0 +1,17 @@
+{
+  "name": "Diário Pomp",
+  "short_name": "Diário Pomp",
+  "description": "Diário pessoal de acompanhamento de seis meses: Mounjaro, peso, medidas, sintomas e hábitos.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FBF7F1",
+  "theme_color": "#C98FA0",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
