@@ -1,0 +1,73 @@
+DIÁRIO POMP — instalar usando só o celular
+====================================================
+
+Esta pasta tem todos os arquivos soltos (sem subpastas) de propósito,
+para dar para selecionar todos de uma vez no celular.
+
+PASSO 1 — Extrair o zip no celular
+--------------------------------------------------------
+1. Baixe o arquivo "Diario Pomp - app para instalar.zip" no celular
+   (ele já deve estar na pasta Downloads).
+2. Abra o app de Arquivos do seu Android (ou "Meus Arquivos"/"Files").
+3. Toque no arquivo zip e escolha "Extrair" (às vezes aparece como
+   ícone de tesourinha ou a palavra "Extract").
+4. Isso cria uma pasta com os mesmos arquivos soltos. Você vai
+   precisar deles no passo 3.
+
+PASSO 2 — Criar uma conta gratuita no GitHub (se ainda não tiver)
+--------------------------------------------------------
+1. No navegador do celular, acesse github.com
+2. Toque em "Sign up" e crie uma conta (é grátis).
+3. Confirme o e-mail se for pedido.
+
+PASSO 3 — Criar o repositório e subir os arquivos
+--------------------------------------------------------
+1. Ainda no github.com, logada, toque no "+" no canto superior e
+   escolha "New repository".
+2. Dê um nome, por exemplo: diario-pomp
+3. Marque como "Public" (precisa ser público para o link funcionar
+   de graça) e toque em "Create repository".
+4. Na página do repositório, toque em "Add file" > "Upload files".
+5. Toque na área de upload. Isso abre o seletor de arquivos do
+   celular. Navegue até a pasta extraída no passo 1 e selecione
+   TODOS os arquivos de uma vez (index.html, manifest.json,
+   service-worker.js, bundle.js, tailwind.css, os três ícones e o
+   LEIA-ME). A maioria dos seletores de arquivo do Android permite
+   marcar vários de uma vez, mantendo o dedo em um e tocando nos
+   outros, ou usando o botão de seleção múltipla.
+6. Role até o final e toque em "Commit changes" (pode confirmar
+   direto na branch principal).
+
+PASSO 4 — Ativar o GitHub Pages
+--------------------------------------------------------
+1. No repositório, toque em "Settings".
+2. No menu lateral (pode estar num "≡" no celular), toque em "Pages".
+3. Em "Branch", escolha "main" (ou "master") e pasta "/ (root)".
+   Toque em "Save".
+4. Espere um ou dois minutos. Atualize a página. Vai aparecer uma
+   frase tipo "Your site is live at
+   https://seu-usuario.github.io/diario-pomp/". Esse é o seu link.
+
+PASSO 5 — Instalar o app de verdade
+--------------------------------------------------------
+1. Copie esse link e abra no Chrome do Android (importante ser o
+   Chrome).
+2. Toque no menu do Chrome (⋮, três pontinhos no canto superior).
+3. Toque em "Adicionar à tela inicial" ou "Instalar aplicativo".
+4. Confirme. Pronto: o ícone "Diário Pomp" aparece na tela inicial e
+   abre em tela cheia, como um app de verdade.
+5. Na aba Ajustes do app, ao ativar um lembrete pela primeira vez, o
+   celular vai pedir permissão de notificação. Toque em "Permitir".
+
+SE PRECISAR ATUALIZAR O APP DEPOIS
+--------------------------------------------------------
+Volte no repositório no github.com, "Add file" > "Upload files" de
+novo, e suba os arquivos novos por cima. O link continua o mesmo.
+
+IMPORTANTE SOBRE OS DADOS
+--------------------------------------------------------
+Os registros ficam salvos só no navegador do seu celular. Trocar de
+aparelho ou limpar dados do navegador apaga tudo. Use a exportação em
+CSV (aba Ajustes, dentro do app) de vez em quando como cópia de
+segurança. Os dados que você já registrou na conversa com a Claude
+não migram sozinhos para este app; são guardados separadamente.
